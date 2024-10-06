@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/**
+Icon stuff
+*/
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.icon-container a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+    display: flex;
+}
+
+.icon-container a:hover {
+    color: #007bff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+}

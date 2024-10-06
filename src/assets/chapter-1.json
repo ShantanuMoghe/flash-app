@@ -1,0 +1,221 @@
+{
+    "chapterNumber": 1,
+    "chapterName": "New Friends",
+    "vocabList": [
+        {
+            "vocabText": "あの",
+            "vocabKanji": "",
+            "vocabMeaning": "um..."
+        },
+        {
+            "vocabText": "いま",
+            "vocabKanji": "今",
+            "vocabMeaning": "now"
+        },
+        {
+            "vocabText": "えいご",
+            "vocabKanji": "英語",
+            "vocabMeaning": "English (language)"
+        },
+        {
+            "vocabText": "がくせい",
+            "vocabKanji": "学生",
+            "vocabMeaning": "student"
+        },
+        {
+            "vocabText": "こうこう",
+            "vocabKanji": "高校",
+            "vocabMeaning": "high school"
+        },
+        {
+            "vocabText": "ごご",
+            "vocabKanji": "午後",
+            "vocabMeaning": "P.M."
+        },
+        {
+            "vocabText": "ごぜん",
+            "vocabKanji": "午前",
+            "vocabMeaning": "A.M."
+        },
+        {
+            "vocabText": "せんせい",
+            "vocabKanji": "先生",
+            "vocabMeaning": "teacher; professor"
+        },
+        {
+            "vocabText": "せんもん",
+            "vocabKanji": "専門",
+            "vocabMeaning": "major (field of study)"
+        },
+        {
+            "vocabText": "そうです",
+            "vocabKanji": "",
+            "vocabMeaning": "that's right"
+        },
+        {
+            "vocabText": "だいがく",
+            "vocabKanji": "大学",
+            "vocabMeaning": "college; university"
+        },
+        {
+            "vocabText": "でんわ",
+            "vocabKanji": "電話",
+            "vocabMeaning": "telephone"
+        },
+        {
+            "vocabText": "ともだち",
+            "vocabKanji": "友達",
+            "vocabMeaning": "friend"
+        },
+        {
+            "vocabText": "なまえ",
+            "vocabKanji": "名前",
+            "vocabMeaning": "name"
+        },
+        {
+            "vocabText": "にほん",
+            "vocabKanji": "日本",
+            "vocabMeaning": "Japan"
+        },
+        {
+            "vocabText": "にほんご",
+            "vocabKanji": "日本語",
+            "vocabMeaning": "Japanese (language)"
+        },
+        {
+            "vocabText": "はい",
+            "vocabKanji": "",
+            "vocabMeaning": "yes"
+        },
+        {
+            "vocabText": "りゅうがくせい",
+            "vocabKanji": "留学生",
+            "vocabMeaning": "international student"
+        },
+        {
+            "vocabText": "わたし",
+            "vocabKanji": "私",
+            "vocabMeaning": "I; me"
+        },
+        {
+            "vocabText": "アメリカ",
+            "vocabKanji": "",
+            "vocabMeaning": "America"
+        },
+        {
+            "vocabText": "イギリス",
+            "vocabKanji": "",
+            "vocabMeaning": "Britain"
+        },
+        {
+            "vocabText": "オーストラリア",
+            "vocabKanji": "",
+            "vocabMeaning": "Australia"
+        },
+        {
+            "vocabText": "かんこく",
+            "vocabKanji": "韓国",
+            "vocabMeaning": "Korea"
+        },
+        {
+            "vocabText": "スウェーデン",
+            "vocabKanji": "",
+            "vocabMeaning": "Sweden"
+        },
+        {
+            "vocabText": "ちゅうごく",
+            "vocabKanji": "中国",
+            "vocabMeaning": "China"
+        },
+        {
+            "vocabText": "かがく",
+            "vocabKanji": "科学",
+            "vocabMeaning": "science"
+        },
+        {
+            "vocabText": "けいざい",
+            "vocabKanji": "経済",
+            "vocabMeaning": "economics"
+        },
+        {
+            "vocabText": "こくさいかんけい",
+            "vocabKanji": "国際関係",
+            "vocabMeaning": "international relations"
+        },
+        {
+            "vocabText": "じんるいがく",
+            "vocabKanji": "人類学",
+            "vocabMeaning": "anthropology"
+        },
+        {
+            "vocabText": "せいじ",
+            "vocabKanji": "政治",
+            "vocabMeaning": "politics"
+        },
+        {
+            "vocabText": "ビジネス",
+            "vocabKanji": "",
+            "vocabMeaning": "business"
+        },
+        {
+            "vocabText": "ぶんがく",
+            "vocabKanji": "文学",
+            "vocabMeaning": "literature"
+        },
+        {
+            "vocabText": "れきし",
+            "vocabKanji": "歴史",
+            "vocabMeaning": "history"
+        },
+        {
+            "vocabText": "しごと",
+            "vocabKanji": "仕事",
+            "vocabMeaning": "job; work; occupation"
+        },
+        {
+            "vocabText": "いしゃ",
+            "vocabKanji": "医者",
+            "vocabMeaning": "doctor"
+        },
+        {
+            "vocabText": "かいしゃいん",
+            "vocabKanji": "会社員",
+            "vocabMeaning": "office worker"
+        },
+        {
+            "vocabText": "こうこうせい",
+            "vocabKanji": "高校生",
+            "vocabMeaning": "high school student"
+        },
+        {
+            "vocabText": "しゅふ",
+            "vocabKanji": "主婦",
+            "vocabMeaning": "housewife"
+        },
+        {
+            "vocabText": "だいがくいんせい",
+            "vocabKanji": "大学院生",
+            "vocabMeaning": "graduate student"
+        },
+        {
+            "vocabText": "だいがくせい",
+            "vocabKanji": "大学生",
+            "vocabMeaning": "college student"
+        },
+        {
+            "vocabText": "べんごし",
+            "vocabKanji": "弁護士",
+            "vocabMeaning": "lawyer"
+        },
+        {
+            "vocabText": "おとうさん",
+            "vocabKanji": "お父さん",
+            "vocabMeaning": "father"
+        },
+        {
+            "vocabText": "おかあさん",
+            "vocabKanji": "お母さん",
+            "vocabMeaning": "mother"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+<div class="icon-container">
+  <a (click)="handlePrevNavAction()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left">
+      <line x1="19" y1="12" x2="5" y2="12"></line>
+      <polyline points="12 19 5 12 12 5"></polyline>
+    </svg>
+  </a>
+</div>
+
+<div class="form-container">
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="chapterNumber">Chapter Number</label>
+      <input id="chapterNumber" formControlName="chapterNumber" type="number" />
+    </div>
+    <div class="form-group">
+      <label for="chapterName">Chapter Name</label>
+      <input id="chapterName" formControlName="chapterName" type="text" />
+    </div>
+    <div class="form-group">
+      <label for="vocabText">Vocab</label>
+      <input id="vocabText" formControlName="vocabText" type="text" />
+    </div>
+    <div class="form-group">
+      <label for="meaningText">Meaning</label>
+      <input id="meaningText" formControlName="meaningText" type="text" />
+    </div>
+    <button type="submit" [disabled]="myForm.invalid">Submit</button>
+  </form>
+</div>

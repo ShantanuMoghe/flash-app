@@ -59,3 +59,6 @@ Make sure to delete android folder if present.
 
 ## Download Apk from root director
     - Name: app-release.apk
+
+## Demo image:
+![alt text]({6EF06347-8EAF-4D2E-A913-E158B516DB1F}.png)

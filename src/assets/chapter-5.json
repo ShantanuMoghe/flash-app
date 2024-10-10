@@ -1,0 +1,206 @@
+{
+    "chapterNumber": 5,
+    "chapterName": "A Trip to Okinawa",
+    "vocabList": [
+        {
+            "vocabText": "あたらしい",
+            "vocabKanji": "新しい",
+            "vocabMeaning": "new"
+        },
+        {
+            "vocabText": "あつい",
+            "vocabKanji": "暑い",
+            "vocabMeaning": "hot (weather)"
+        },
+        {
+            "vocabText": "あつい",
+            "vocabKanji": "熱い",
+            "vocabMeaning": "hot (thing)"
+        },
+        {
+            "vocabText": "いそがしい",
+            "vocabKanji": "忙しい",
+            "vocabMeaning": "busy (people/days)"
+        },
+        {
+            "vocabText": "おおきい",
+            "vocabKanji": "大きい",
+            "vocabMeaning": "large"
+        },
+        {
+            "vocabText": "おもしろい",
+            "vocabKanji": "面白い",
+            "vocabMeaning": "interesting; funny"
+        },
+        {
+            "vocabText": "かっこいい",
+            "vocabKanji": "",
+            "vocabMeaning": "good-looking"
+        },
+        {
+            "vocabText": "こわい",
+            "vocabKanji": "怖い",
+            "vocabMeaning": "frightening"
+        },
+        {
+            "vocabText": "さむい",
+            "vocabKanji": "寒い",
+            "vocabMeaning": "cold (weather)"
+        },
+        {
+            "vocabText": "たのしい",
+            "vocabKanji": "楽しい",
+            "vocabMeaning": "fun"
+        },
+        {
+            "vocabText": "ちいさい",
+            "vocabKanji": "小さい",
+            "vocabMeaning": "small"
+        },
+        {
+            "vocabText": "つまらない",
+            "vocabKanji": "",
+            "vocabMeaning": "boring"
+        },
+        {
+            "vocabText": "ふるい",
+            "vocabKanji": "古い",
+            "vocabMeaning": "old (thing)"
+        },
+        {
+            "vocabText": "むずかしい",
+            "vocabKanji": "難しい",
+            "vocabMeaning": "difficult"
+        },
+        {
+            "vocabText": "やさしい",
+            "vocabKanji": "易しい",
+            "vocabMeaning": "easy (problem); kind (person)"
+        },
+        {
+            "vocabText": "やすい",
+            "vocabKanji": "安い",
+            "vocabMeaning": "inexpensive; cheap (thing)"
+        },
+        {
+            "vocabText": "きらい（な）",
+            "vocabKanji": "嫌い（な）",
+            "vocabMeaning": "disgusted with; to dislike"
+        },
+        {
+            "vocabText": "きれい（な）",
+            "vocabKanji": "",
+            "vocabMeaning": "beautiful; clean"
+        },
+        {
+            "vocabText": "げんき（な）",
+            "vocabKanji": "元気（な）",
+            "vocabMeaning": "healthy; energetic"
+        },
+        {
+            "vocabText": "しずか（な）",
+            "vocabKanji": "静か（な）",
+            "vocabMeaning": "quiet"
+        },
+        {
+            "vocabText": "すき（な）",
+            "vocabKanji": "好き（な）",
+            "vocabMeaning": "fond of; to like"
+        },
+        {
+            "vocabText": "だいきらい（な）",
+            "vocabKanji": "大嫌い（な）",
+            "vocabMeaning": "to hate"
+        },
+        {
+            "vocabText": "だいすき（な）",
+            "vocabKanji": "大好き（な）",
+            "vocabMeaning": "very fond of; to love"
+        },
+        {
+            "vocabText": "にぎやか（な）",
+            "vocabKanji": "",
+            "vocabMeaning": "lively"
+        },
+        {
+            "vocabText": "ひま（な）",
+            "vocabKanji": "暇（な）",
+            "vocabMeaning": "not busy; to have a lot of free time"
+        },
+        {
+            "vocabText": "およぐ",
+            "vocabKanji": "泳ぐ",
+            "vocabMeaning": "to swim"
+        },
+        {
+            "vocabText": "きく",
+            "vocabKanji": "聞く",
+            "vocabMeaning": "to ask"
+        },
+        {
+            "vocabText": "のる",
+            "vocabKanji": "乗る",
+            "vocabMeaning": "to ride; to board"
+        },
+        {
+            "vocabText": "かく",
+            "vocabKanji": "書く",
+            "vocabMeaning": "to write"
+        },
+        {
+            "vocabText": "せんたく",
+            "vocabKanji": "洗濯",
+            "vocabMeaning": "laundry"
+        },
+        {
+            "vocabText": "やる",
+            "vocabKanji": "",
+            "vocabMeaning": "to do; to perform"
+        },
+        {
+            "vocabText": "でかける",
+            "vocabKanji": "出かける",
+            "vocabMeaning": "to go out"
+        },
+        {
+            "vocabText": "いっしょに",
+            "vocabKanji": "一緒に",
+            "vocabMeaning": "together"
+        },
+        {
+            "vocabText": "すごく",
+            "vocabKanji": "",
+            "vocabMeaning": "extremely"
+        },
+        {
+            "vocabText": "それから",
+            "vocabKanji": "",
+            "vocabMeaning": "and then"
+        },
+        {
+            "vocabText": "だいじょうぶ",
+            "vocabKanji": "大丈夫",
+            "vocabMeaning": "It's okay.; Not to worry.; Everything is under control."
+        },
+        {
+            "vocabText": "とても",
+            "vocabKanji": "",
+            "vocabMeaning": "very"
+        },
+        {
+            "vocabText": "どんな",
+            "vocabKanji": "",
+            "vocabMeaning": "what kind of..."
+        },
+        {
+            "vocabText": "～まい",
+            "vocabKanji": "",
+            "vocabMeaning": "counter for flat objects"
+        },
+        {
+            "vocabText": "～まで",
+            "vocabKanji": "",
+            "vocabMeaning": "to (a place); as far as (a place); till (a time)"
+        }
+    ]
+}

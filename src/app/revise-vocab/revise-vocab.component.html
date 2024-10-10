@@ -1,5 +1,5 @@
 <div class="icon-container">
-    <a (click)="handlePrevNavAction()">
+    <a (click)="handlePrevNavAction()" class="btn btn-light">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
             class="feather feather-arrow-left">
@@ -8,15 +8,53 @@
         </svg>
     </a>
 </div>
-<div  class="container">
-    <div *ngIf="currentQuestionData" class="question-section">
-        <h2>{{currentQuestionData.vocabText}}</h2>
+
+<!-- Centered 'Set Reps' button -->
+<div class="set-reps-container">
+    <button class="btn btn-primary" (click)="openPopUp()">Set Reps</button>
+</div>
+
+<div class="progress-bar">
+    <div class="skull" *ngIf="currentQuestionData">
+        <div class="skull-shadow" *ngFor="let skull of [].constructor(currentQuestionData.score)">💀</div>
     </div>
-    <div class="options-section">
-        <div class="option" *ngFor="let option of finalShuffledOptions">
-            <div (click)="checkOption(option)">{{option}}</div>
+</div>
+
+<div class="container">
+    <div *ngIf="currentQuestionData" class="question-section">
+        <h2 *ngIf="+mode===0">{{currentQuestionData.vocabText}}</h2>
+        <h2 *ngIf="+mode >= 1">{{currentQuestionData.vocabKanji}}</h2>
+    </div>
+    <div class="row">
+        <div class="col-12" style="margin-bottom: 10px;" *ngFor="let option of finalShuffledOptions"
+            (click)="checkOption(option)">
+            <div [ngClass]="{
+                'correct-option': option === currentQuestionData.vocabMeaning && (selectedOption === option || showCorrectAnswer),
+                'incorrect-option': option !== currentQuestionData.vocabMeaning && selectedOption === option
+              }" class="option p-2">{{option}}</div>
+        </div>
+    </div>
+
+    <!-- Confetti container -->
+    <div *ngIf="currentQuestionData && currentQuestionData.index === -1" class="confetti-container" id="confetti">
+        <div *ngFor="let n of [].constructor(1000); let i = index" class="confetti" [ngStyle]="generateRandomStyle()">
         </div>
     </div>
 </div>
 
-<div (click)="handleLoadOnHint()" *ngIf="isShowHint" class="hint-word">{{currentQuestionData.vocabMeaning}}</div>
+<div (click)="handleLoadOnHint()" *ngIf="isShowHint" class="hint-word">
+    {{+mode ===0 ?currentQuestionData.vocabMeaning : currentQuestionData.vocabText}}
+</div>
+
+<div *ngIf="isShowPopup" class="popup">
+    <div class="popup-content">
+        <div class="close-pop-up-icon" (click)="closePopup()">❌</div>
+        <h2>Set Repetions</h2>
+        <input type="range" min="1" max="7" step="1" [(ngModel)]="reps" class="form-control" />
+        <p>Repetions: {{ reps }}</p>
+        <h2 *ngIf="+vocabPracticeMode===0">Set Mode (Normal/Kanji)</h2>
+        <input *ngIf="+vocabPracticeMode===0" type="range" min="0" max="2" step="1" [(ngModel)]="mode" class="form-control" />
+        <p *ngIf="+vocabPracticeMode===0">{{ showMode(+mode) }}</p>
+        <button class="btn btn-primary" (click)="closePopup(true)">Set</button>
+    </div>
+</div>

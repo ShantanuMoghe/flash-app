@@ -1,0 +1,281 @@
+{
+    "chapterNumber": 2,
+    "chapterName": "Shopping",
+    "vocabList": [
+        {
+            "vocabText": "これ",
+            "vocabKanji": "",
+            "vocabMeaning": "this (thing here)"
+        },
+        {
+            "vocabText": "それ",
+            "vocabKanji": "",
+            "vocabMeaning": "that (thing near you)"
+        },
+        {
+            "vocabText": "あれ",
+            "vocabKanji": "",
+            "vocabMeaning": "that (thing over there)"
+        },
+        {
+            "vocabText": "どれ",
+            "vocabKanji": "",
+            "vocabMeaning": "which"
+        },
+        {
+            "vocabText": "この",
+            "vocabKanji": "",
+            "vocabMeaning": "this..."
+        },
+        {
+            "vocabText": "その",
+            "vocabKanji": "",
+            "vocabMeaning": "that..."
+        },
+        {
+            "vocabText": "あの",
+            "vocabKanji": "",
+            "vocabMeaning": "that... (over there)"
+        },
+        {
+            "vocabText": "どの",
+            "vocabKanji": "",
+            "vocabMeaning": "which..."
+        },
+        {
+            "vocabText": "ここ",
+            "vocabKanji": "",
+            "vocabMeaning": "here"
+        },
+        {
+            "vocabText": "そこ",
+            "vocabKanji": "",
+            "vocabMeaning": "there"
+        },
+        {
+            "vocabText": "あそこ",
+            "vocabKanji": "",
+            "vocabMeaning": "over there"
+        },
+        {
+            "vocabText": "どこ",
+            "vocabKanji": "",
+            "vocabMeaning": "where"
+        },
+        {
+            "vocabText": "だれ",
+            "vocabKanji": "",
+            "vocabMeaning": "who"
+        },
+        {
+            "vocabText": "どう",
+            "vocabKanji": "",
+            "vocabMeaning": "how"
+        },
+        {
+            "vocabText": "これから",
+            "vocabKanji": "",
+            "vocabMeaning": "from now"
+        },
+        {
+            "vocabText": "さようなら",
+            "vocabKanji": "",
+            "vocabMeaning": "goodbye"
+        },
+        {
+            "vocabText": "おいしい",
+            "vocabKanji": "",
+            "vocabMeaning": "delicious"
+        },
+        {
+            "vocabText": "さかな",
+            "vocabKanji": "魚",
+            "vocabMeaning": "fish"
+        },
+        {
+            "vocabText": "とんかつ",
+            "vocabKanji": "",
+            "vocabMeaning": "pork cutlet"
+        },
+        {
+            "vocabText": "にく",
+            "vocabKanji": "肉",
+            "vocabMeaning": "meat"
+        },
+        {
+            "vocabText": "めにゅう",
+            "vocabKanji": "メニュー",
+            "vocabMeaning": "menu"
+        },
+        {
+            "vocabText": "やさい",
+            "vocabKanji": "野菜",
+            "vocabMeaning": "vegetable"
+        },
+        {
+            "vocabText": "えんぴつ",
+            "vocabKanji": "鉛筆",
+            "vocabMeaning": "pencil"
+        },
+        {
+            "vocabText": "かさ",
+            "vocabKanji": "傘",
+            "vocabMeaning": "umbrella"
+        },
+        {
+            "vocabText": "かばん",
+            "vocabKanji": "",
+            "vocabMeaning": "bag"
+        },
+        {
+            "vocabText": "くつ",
+            "vocabKanji": "靴",
+            "vocabMeaning": "shoes"
+        },
+        {
+            "vocabText": "さいふ",
+            "vocabKanji": "財布",
+            "vocabMeaning": "wallet"
+        },
+        {
+            "vocabText": "じしょ",
+            "vocabKanji": "辞書",
+            "vocabMeaning": "dictionary"
+        },
+        {
+            "vocabText": "じてんしゃ",
+            "vocabKanji": "自転車",
+            "vocabMeaning": "bicycle"
+        },
+        {
+            "vocabText": "しんぶん",
+            "vocabKanji": "新聞",
+            "vocabMeaning": "newspaper"
+        },
+        {
+            "vocabText": "てぃいしゃつ",
+            "vocabKanji": "Tシャツ",
+            "vocabMeaning": "T-shirt"
+        },
+        {
+            "vocabText": "とけい",
+            "vocabKanji": "時計",
+            "vocabMeaning": "watch; clock"
+        },
+        {
+            "vocabText": "のーと",
+            "vocabKanji": "ノート",
+            "vocabMeaning": "notebook"
+        },
+        {
+            "vocabText": "ぺん",
+            "vocabKanji": "ペン",
+            "vocabMeaning": "pen"
+        },
+        {
+            "vocabText": "ぼうし",
+            "vocabKanji": "帽子",
+            "vocabMeaning": "hat; cap"
+        },
+        {
+            "vocabText": "ほん",
+            "vocabKanji": "本",
+            "vocabMeaning": "book"
+        },
+        {
+            "vocabText": "きっさてん",
+            "vocabKanji": "喫茶店",
+            "vocabMeaning": "café"
+        },
+        {
+            "vocabText": "ぎんこう",
+            "vocabKanji": "銀行",
+            "vocabMeaning": "bank"
+        },
+        {
+            "vocabText": "といれ",
+            "vocabKanji": "トイレ",
+            "vocabMeaning": "toilet; restroom"
+        },
+        {
+            "vocabText": "としょかん",
+            "vocabKanji": "図書館",
+            "vocabMeaning": "library"
+        },
+        {
+            "vocabText": "ゆうびんきょく",
+            "vocabKanji": "郵便局",
+            "vocabMeaning": "post office"
+        },
+        {
+            "vocabText": "けいざい",
+            "vocabKanji": "経済",
+            "vocabMeaning": "economics"
+        },
+        {
+            "vocabText": "こうこう",
+            "vocabKanji": "高校",
+            "vocabMeaning": "high school"
+        },
+        {
+            "vocabText": "ごご",
+            "vocabKanji": "午後",
+            "vocabMeaning": "P.M."
+        },
+        {
+            "vocabText": "ごぜん",
+            "vocabKanji": "午前",
+            "vocabMeaning": "A.M."
+        },
+        {
+            "vocabText": "せんせい",
+            "vocabKanji": "先生",
+            "vocabMeaning": "teacher"
+        },
+        {
+            "vocabText": "だいがく",
+            "vocabKanji": "大学",
+            "vocabMeaning": "college"
+        },
+        {
+            "vocabText": "とけい",
+            "vocabKanji": "時計",
+            "vocabMeaning": "watch; clock"
+        },
+        {
+            "vocabText": "いくら",
+            "vocabKanji": "",
+            "vocabMeaning": "how much"
+        },
+        {
+            "vocabText": "たかい",
+            "vocabKanji": "高い",
+            "vocabMeaning": "expensive; high"
+        },
+        {
+            "vocabText": "いらっしゃいませ",
+            "vocabKanji": "",
+            "vocabMeaning": "Welcome (to our store)"
+        },
+        {
+            "vocabText": "（～を）おねがいします",
+            "vocabKanji": "",
+            "vocabMeaning": "Please"
+        },
+        {
+            "vocabText": "（～を）ください",
+            "vocabKanji": "",
+            "vocabMeaning": "Please give me..."
+        },
+        {
+            "vocabText": "じゃあ",
+            "vocabKanji": "",
+            "vocabMeaning": "then...; if that is the case..."
+        },
+        {
+            "vocabText": "どうも",
+            "vocabKanji": "",
+            "vocabMeaning": "Thank you"
+        }
+    ]
+}

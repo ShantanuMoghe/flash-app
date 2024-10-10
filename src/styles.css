@@ -3,14 +3,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
 }
 
-/**
-Icon stuff
-*/
+/* Use Bootstrap's utility classes and a custom icon-container style */
 .icon-container {
     display: flex;
     align-items: center;
@@ -22,12 +20,17 @@ Icon stuff
     text-decoration: none;
     color: black;
     transition: color 0.2s;
-    display: flex;
 }
 
 .icon-container a:hover {
     color: #007bff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    display: flex;
+}
+
+/* Centering with Bootstrap utilities */
+.icon-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }

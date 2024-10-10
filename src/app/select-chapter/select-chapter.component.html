@@ -1,5 +1,5 @@
 <div class="icon-container">
-    <a (click)="handlePrevNavAction()">
+    <a (click)="handlePrevNavAction()" class="btn btn-light">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
             class="feather feather-arrow-left">
@@ -8,8 +8,31 @@
         </svg>
     </a>
 </div>
-<div class="chapter-container">
-    <div *ngFor="let chapter of chapterList" class="chapter-card">
-        <div (click)="handleSelectChapter(chapter.chapterNumber)">Chapter Number: {{ chapter.chapterNumber }}</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div *ngFor="let chapter of chapterList" class="col-sm-6 col-md-3">
+            <div class="chapter-card">
+                <div class="overlay"></div>
+                <div class="card-content">
+                    <h3>Chapter: {{ chapter.chapterNumber }}</h3>
+                    <h2>{{ chapter.chapterName }}</h2>
+                    <div class="mode-buttons">
+                        <i class="icon-actions" (click)="opendPopUp(chapter.chapterNumber)">✍️</i>
+                    </div>
+                </div>
+                <div class="background" [ngStyle]="{'background-image': 'url(' + chapter.imageUrl + ')'}"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="isShowPopup" class="popup">
+    <div class="popup-content">
+        <div class="close-pop-up-icon" (click)="closePopup()">❌</div>
+        <h2>Set Mode (A/あ)</h2>
+        <input type="range" min="0" max="1" step="1" [(ngModel)]="mode" class="form-control" />
+        <p>{{ mode===1 ? 'あ': 'A' }}</p>
+        <button class="btn btn-primary" (click)="closePopup(true)">start</button>
     </div>
 </div>

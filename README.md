@@ -25,3 +25,34 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Important commands for building Android .apk file.
+Make sure to delete android folder if present.
+ng build
+npx cap add android
+npx cap sync android
+npx cap copy
+npx cap open android
+
+## Assets struncture
+    - chapter-{chapter-number}.json
+        - JSON structure - 
+            {
+                "chapterNumber": 1,
+                "chapterName": "New Friends",
+                "vocabList": [
+                    {
+                        "vocabText": "あの",
+                        "vocabKanji": "",
+                        "vocabMeaning": "um..."
+                    },
+                    {
+                        "vocabText": "いま",
+                        "vocabKanji": "今",
+                        "vocabMeaning": "now"
+                    },
+                    ...
+                ]
+            }
+    - background images naming convention:
+        - chapter-{chapter-number}.png

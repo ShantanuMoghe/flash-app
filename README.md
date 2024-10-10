@@ -28,11 +28,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Important commands for building Android .apk file.
 Make sure to delete android folder if present.
-ng build
-npx cap add android
-npx cap sync android
-npx cap copy
-npx cap open android
+- ng build
+- npx cap add android
+- npx cap sync android
+- npx cap copy
+- npx cap open android
 
 ## Assets struncture
     - chapter-{chapter-number}.json

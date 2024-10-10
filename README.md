@@ -56,3 +56,6 @@ Make sure to delete android folder if present.
             }
     - background images naming convention:
         - chapter-{chapter-number}.png
+
+## Download Apk from root director
+    - Name: app-release.apk
